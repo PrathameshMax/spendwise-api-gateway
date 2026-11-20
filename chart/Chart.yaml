@@ -1,0 +1,13 @@
+apiVersion: v2
+name: api-gateway
+description: "SpendWise api-gateway — Edge gateway and backend-for-frontend"
+type: application
+# Base version. The pipeline packages every main build as
+# <version>-g<short commit> with the image digest written into values.yaml.
+version: 1.0.0
+appVersion: "main"
+home: https://github.com/PrathameshMax/spendwise-api-gateway
+sources:
+  - https://github.com/PrathameshMax/spendwise-api-gateway
+maintainers:
+  - name: PrathameshMax
